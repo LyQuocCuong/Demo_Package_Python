@@ -15,5 +15,6 @@
 - Python Console:
   + "help(package_name)"" => document about package
   + To test the new updated package => open NEW console to test (old console cann't be updated)
+  + "python setup.py sdist bdist_wheel" => create .whl, .tar.gr files (need to install "wheel" package)
 - pip => tool manage packages for Python
 - sbt => tool for Scala, Java project
