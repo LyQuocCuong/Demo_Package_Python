@@ -1,0 +1,19 @@
+- Build Package:
+  + "pip install ." => encapsulate package
+  + __all__ => USELESS in the encapsulated package, all methods will be called (not only in __all__)
+  + __init__ empty => NO method in package
+  + Use setup() function from the setuptools module
+- venv:
+  + Ctrl+Alt+S to create "venv"
+  + Allow you to manage separate package installations for different projects
+  + Create new venv
+  => "python –m venv path/to/venv"
+  + Activate venv
+  => "path/to/venv/Script/activate"
+  + Deactivate venv
+  => "path/to/venv/Script/deactivate"
+- Python Console:
+  + "help(package_name)"" => document about package
+  + To test the new updated package => open NEW console to test (old console cann't be updated)
+- pip => tool manage packages for Python
+- sbt => tool for Scala, Java project
